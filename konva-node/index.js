@@ -1,5 +1,5 @@
 var Konva = require('konva');
-var canvas = require('canvas');
+var canvas = require('@napi-rs/canvas');
 
 // mock window
 Konva.window = {

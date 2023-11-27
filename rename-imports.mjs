@@ -18,8 +18,8 @@ files.then((filePaths) => {
 
       // stupid replacement back
       text = text.replace(
-        "import * as Canvas from 'canvas.js';",
-        "import * as Canvas from 'canvas';"
+        "import * as Canvas from '@napi-rs/canvas';",
+        "import * as Canvas from '@napi-rs/canvas';"
       );
 
       // Handle import("./x/y/z") syntax.

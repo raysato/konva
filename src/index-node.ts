@@ -1,6 +1,6 @@
 // main entry for umd build for rollup
 import { Konva } from './_FullInternals';
-import * as Canvas from 'canvas';
+import * as Canvas from '@napi-rs/canvas';
 
 const canvas = Canvas['default'] || Canvas;
 

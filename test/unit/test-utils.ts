@@ -4,7 +4,7 @@ import '../../src/index-node';
 
 export const Konva = KonvaModule;
 
-import * as canvas from 'canvas';
+import * as canvas from '@napi-rs/canvas';
 
 Konva.enableTrace = true;
 Konva.showWarnings = true;

@@ -22,11 +22,11 @@
   "homepage": "http://konvajs.org/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/konvajs/konva.git"
+    "url": "git://github.com/raysato/konva.git"
   },
   "license": "MIT",
   "dependencies": {
-    "canvas": "^2.5.0",
+    "@napi-rs/canvas": "^0.1.44",
     "konva": "^7"
   }
 }

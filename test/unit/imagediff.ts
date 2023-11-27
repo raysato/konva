@@ -1,4 +1,4 @@
-import { createCanvas, Canvas } from 'canvas';
+import { createCanvas, Canvas } from '@napi-rs/canvas';
 
 var TYPE_ARRAY = /\[object Array\]/i,
   TYPE_CANVAS = /\[object (Canvas|HTMLCanvasElement)\]/i,
